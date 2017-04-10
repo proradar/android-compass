@@ -1,102 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff" >
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.project.undercompass.MainActivity">
 
-    <TextView
-        android:id="@+id/tvHeading"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:layout_marginTop="20dp"
-        android:text="Heading: 0.0"
-        android:layout_height="100px"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_width="620px" />
-
-    <TextView
-        android:text="NE"
-        android:id="@+id/textView3"
-        android:textColor="@color/num"
-        android:background="@color/num_back"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_width="160px"
-        android:layout_height="120px"
-        android:layout_alignTop="@+id/back"
-        android:layout_alignEnd="@+id/back" />
-
-    <TextView
-        android:id="@+id/back"
-        android:background="@color/compass_back"
-        android:layout_width="1000px"
-        android:layout_height="1000px"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="N"
-        android:id="@+id/textView14"
-        android:textColor="@color/num"
-        android:background="@color/num_back"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_width="160px"
-        android:layout_height="120px"
-        android:layout_alignTop="@+id/back"
-        android:layout_alignStart="@+id/textView12" />
-
-    <TextView
-        android:text="E"
-        android:id="@+id/textView13"
-        android:textColor="@color/num"
-        android:background="@color/num_back"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_width="160px"
-        android:layout_height="120px"
-        android:layout_alignBaseline="@+id/textView11"
-        android:layout_alignBottom="@+id/textView11"
-        android:layout_alignEnd="@+id/back" />
-
-    <TextView
-        android:text="S"
-        android:id="@+id/textView12"
-        android:textColor="@color/num"
-        android:background="@color/num_back"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_width="160px"
-        android:layout_height="120px"
-        android:layout_alignBottom="@+id/back"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="W"
-        android:id="@+id/textView11"
-        android:textColor="@color/num"
-        android:background="@color/num_back"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_width="160px"
-        android:layout_height="120px"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/back" />
-
-    <TextView
-        android:layout_height="275px"
-        android:layout_alignTop="@+id/imageViewCompass"
-        android:layout_alignStart="@+id/imageViewCompass"
-        android:id="@+id/textView15"
-        android:layout_width="275px"
-        android:background="@color/arrow_back" />
-
-    <ImageView
-        android:id="@+id/imageViewCompass"
-        android:src="@drawable/arrow_up"
-        android:layout_height="275px"
-        android:layout_width="275px"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
