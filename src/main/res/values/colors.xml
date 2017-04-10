@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="compass_back">#87fbff</color>
+    <color name="num_back">#7de8ec</color>
+    <color name="num">#00873d</color>
+    <color name="arrow_back">#ffd0d0</color>
+</resources>
